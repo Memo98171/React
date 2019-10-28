@@ -37,7 +37,7 @@ class NavBar extends Component{
                         <img src="assets/img/bnw-16.jpg" alt=""/>
                         <img src="assets/img/bnw-33.jpg" alt=""/>
                     </AliceCarousel>
-                    <div className="claim">
+                    <div className="claim" style={{backgroundColor: "rgba(0, 0, 15, 0.4)",  borderRadius: "10px", padding: "16px 32px"}}>
                         <p className="headline">Fitness In A Can<span>/</span></p>
                         <p className="kicker">Yes You Can<span>/</span></p>
                     </div>
