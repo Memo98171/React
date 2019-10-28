@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
-
+import "react-alice-carousel/lib/alice-carousel.css";
+import AliceCarousel from 'react-alice-carousel';
 
 class NavBar extends Component{
+
 
     render(){
         return(
             <header>
-
                 <div className="fixed-navbar" style={{backgroundColor:"rgba(0, 0, 15, 0.8)"}}>
 
                     <div className="navbar-lockup">
@@ -27,21 +28,25 @@ class NavBar extends Component{
                     </div>
 
                 </div>
-
                 <div className="claim-lockup">
-
+                    <AliceCarousel autoPlay={true} autoPlayInterval={4000}>
+                        <img src="assets/img/bnw-27.jpg" alt=""/>
+                        <img src="assets/img/bnw-32.jpg" alt=""/>
+                        <img src="assets/img/bnw-6.jpg" alt=""/>
+                        <img src="assets/img/bnw-25.jpg" alt=""/>
+                        <img src="assets/img/bnw-16.jpg" alt=""/>
+                        <img src="assets/img/bnw-33.jpg" alt=""/>
+                    </AliceCarousel>
                     <div className="claim">
-
                         <p className="headline">Fitness In A Can<span>/</span></p>
                         <p className="kicker">Yes You Can<span>/</span></p>
-
                     </div>
-
                 </div>
 
-                <div className="angled-overlay">
 
-                </div>
+
+
+                <div className="angled-overlay"></div>
 
                 <div className="slide-out-nav">
 
@@ -67,7 +72,7 @@ class NavBar extends Component{
 
             </header>
 
-    );
+        );
     }
 }
 

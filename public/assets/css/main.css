@@ -2036,7 +2036,7 @@ header {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("../img/copertina.jpg");
+  background-color: #1F262E;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
