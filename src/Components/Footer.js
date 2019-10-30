@@ -1,20 +1,25 @@
 import React, {Component} from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 class Footer extends Component {
     render() {
         return (
-            <footer id="Footer">
+            <footer id="Footer" style={{backgroundColor: "#1F262F"}}>
+                <div className="container">
 
-                <div className="closer">
+                    <div className="closer">
 
-                    <div className="closing-claim">
+                        <div className="closing-claim" style={{backgroundColor: "rgba(0, 0, 15, 0.4)",  borderRadius: "10px", padding: "16px 32px"}}>
 
-                        <h1>We launch leaders with big ideas</h1>
+                            <h1>We launch leaders with big ideas</h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.</p>
+
+                        </div>
 
                     </div>
-
                 </div>
 
                 <div className="bg-angled-left"></div>
@@ -49,8 +54,6 @@ class Footer extends Component {
 
                         <div className="col-lg-5">
 
-                            <h3>Stay in touch</h3>
-
                             <div className="social-icons">
 
                                 <a href=""><i className="icon-facebook"></i></a>
@@ -59,6 +62,8 @@ class Footer extends Component {
                                 <a href=""><i className="icon-linkedin"></i></a>
 
                             </div>
+
+
 
                         </div>
 

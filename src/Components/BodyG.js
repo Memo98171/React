@@ -19,7 +19,6 @@ class BodyG extends Component{
                             <p>Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum
                                 feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
 
-                            <a href="">Explore more<i className="icon-arrow-long-right"></i></a>
 
                         </div>
 
@@ -32,7 +31,6 @@ class BodyG extends Component{
                             <p>Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum
                                 feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
 
-                            <a href="">Browse training<i className="icon-arrow-long-right"></i></a>
 
                         </div>
 
@@ -45,7 +43,6 @@ class BodyG extends Component{
                             <p>Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum
                                 feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
 
-                            <a href="">Connect now<i className="icon-arrow-long-right"></i></a>
 
                         </div>
 
@@ -58,7 +55,6 @@ class BodyG extends Component{
                             <p>Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum
                                 feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
 
-                            <a href="">Start now<i className="icon-arrow-long-right"></i></a>
 
                         </div>
 

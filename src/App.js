@@ -76,6 +76,8 @@ class App extends Component{
                 <NavBar/>
                 <BodyG/>
                 <Search/>
+                <BodyG/>
+
                 <Footer/>
             </div>
         );
