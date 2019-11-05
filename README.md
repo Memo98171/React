@@ -1,3 +1,4 @@
+![badge](https://action-badges.now.sh/Memo98171/React)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
