@@ -58,11 +58,15 @@ class Footer extends Component {
 
                                 <a href=""><i className="icon-facebook"></i></a>
                                 <a href=""><i className="icon-twitter"></i></a>
+                                <a href=""><i className="icon-instagram"></i></a>
                                 <a href=""><i className="icon-youtube-play"></i></a>
+                                <a href=""><i className="fab fa-instagram"></i></a>
                                 <a href=""><i className="icon-linkedin"></i></a>
 
-                            </div>
 
+
+                            </div>
+                            <a href=""><i className="fab fa-instagram"></i></a>
 
 
                         </div>
