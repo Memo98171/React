@@ -1,6 +1,8 @@
 ![badge](https://action-badges.now.sh/Memo98171/React)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Depfu](https://badges.depfu.com/badges/de054e001332668c5c469eeb97543345/overview.svg)](https://depfu.com/github/Memo98171/React?project_id=10054)
+
 ## Available Scripts
 
 In the project directory, you can run:
